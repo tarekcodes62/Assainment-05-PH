@@ -3,7 +3,7 @@ import { AiOutlineMenu } from 'react-icons/ai';
 
 const Nav = () => {
   return (
-    <div className="border-b border-[#E4E4E7] sticky top-0 bg-white z-50 p-1 md:px-5 2xl:p-1">
+    <div className="border-b border-[#E4E4E7] sticky top-0 bg-white z-50 p-1 md:px-5 2xl:px-1">
       <div className="flex justify-between items-center container mx-auto py-3">
         <AiOutlineMenu className=" md:hidden lg:hidden text-2xl text-[#7B7171]" />
 
