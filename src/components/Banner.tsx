@@ -2,7 +2,7 @@ import bannerImage from '../assets/banner-stack.png';
 
 const Banner = () => {
   return (
-    <div className="banner container mx-auto text-center lg:text-left flex flex-col lg:flex-row justify-between items-center gap-10 py-10 px-5">
+    <div className="container mx-auto text-center lg:text-left flex flex-col lg:flex-row justify-between items-center gap-10 py-10 px-5">
       <div className="banner-description">
         <h1 className="mt-10 lg:mt-0 lg:text-6xl text-5xl font-bold mb-10 text-[#0F172A]">
           Build Your Ideal <br />
