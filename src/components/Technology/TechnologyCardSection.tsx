@@ -17,7 +17,7 @@ const TechnologyCardSection = ({
   return (
     <div>
       {' '}
-      <ul className="grid grid-cols-1 gap-7 lg:grid-cols-2  xl:grid-cols-3  mt-10">
+      <ul className="grid grid-cols-1 gap-7 lg:grid-cols-2  xl:grid-cols-3  mt-9">
         {technologyData.map(technology => (
           <li key={technology.id}>
             <TechnologyCards
