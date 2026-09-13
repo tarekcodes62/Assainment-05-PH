@@ -33,7 +33,7 @@ const TechnologyCards = ({
   };
   return (
     <>
-      <div className="flex flex-col rounded-xl border border-slate-200 bg-white p-4 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg w-xs lg:w-2xs h-70 mx-auto ">
+      <div className="flex flex-col rounded-xl border border-slate-200 bg-white p-3 transition-all duration-200 hover:-translate-y-1 hover:shadow-lg w-xs lg:w-2xs h-70 mx-auto ">
         {/* Top */}
         <div className="mb-3 flex items-center justify-between">
           <div className="flex h-7 w-7 items-center justify-center">
