@@ -20,7 +20,7 @@ const Technologies = () => {
   // const technologyData = use(technologyPromise);
   return (
     <div className="border-b border-slate-200 pb-10 pl-5">
-      <div className="technology-cards container mx-auto py-10">
+      <div className="technology-cards container mx-auto py-9">
         <h1 className="text-4xl font-bold mb-5 text-[#0F172A] text-center md:text-start">
           Explore the{' '}
           <span className="brand-gradient bg-clip-text text-transparent">
