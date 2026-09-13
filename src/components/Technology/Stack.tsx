@@ -1,12 +1,16 @@
-import { Bounce, toast } from "react-toastify";
-import type { ITechnologyType } from "../../types/technologyType";
+import { Bounce, toast } from 'react-toastify';
+import type { ITechnologyType } from '../../types/technologyType';
 import { RxCross2 } from 'react-icons/rx';
 
-
-
-const Stack = ({ selectedTechnologies, setSelectedTechnologies}: { selectedTechnologies: ITechnologyType[]; setSelectedTechnologies: React.Dispatch<React.SetStateAction<ITechnologyType[]>>}) => {
-
-  
+const Stack = ({
+  selectedTechnologies,
+  setSelectedTechnologies,
+}: {
+  selectedTechnologies: ITechnologyType[];
+  setSelectedTechnologies: React.Dispatch<
+    React.SetStateAction<ITechnologyType[]>
+  >;
+}) => {
   return (
     <div className="w-xs h-fit rounded-xl p-4 my-10 shadow-md border border-slate-200 bg-white mx-auto md:mx-7 ">
       <h1 className="text-xl font-semibold ">Your Stack</h1>
@@ -39,7 +43,7 @@ const Stack = ({ selectedTechnologies, setSelectedTechnologies}: { selectedTechn
                 </div>
 
                 <button
-                  className="text-red-500 hover:text-red-700"
+                  className="text-red-500 hover:text-red-800"
                   onClick={() => {
                     setSelectedTechnologies(prev =>
                       prev.filter(t => t.id !== tech.id),
@@ -89,6 +93,6 @@ const Stack = ({ selectedTechnologies, setSelectedTechnologies}: { selectedTechn
       </div>
     </div>
   );
-}
+};
 
-export default Stack
+export default Stack;
